@@ -14,7 +14,7 @@ This library attempts to solve the problem of sharing images to Instagram in Rea
 
 ### Usage
 ```javascript
-import RNInstagramShare from 'react-native-instagram-share'
+import RNInstagramShare from 'react-native-instagram-share-ios'
 
 RNInstagramShare.share('some_filename_ending_in_igo')
 ```
