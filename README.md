@@ -4,11 +4,13 @@ This library attempts to solve the problem of sharing images to Instagram in Rea
 
 ### Demo
 
-// insert demo gif
+// demo gif coming soon!
 
 ### Installation
 
-`yarn add react-native-instagram-share`
+`git clone [repo_url]`
+
+`yarn add file:[path-to-directory]`
 
 ### Usage
 ```javascript
