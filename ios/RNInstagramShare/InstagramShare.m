@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "React/RCTBridgeModule.h"
+
+#if __has_include(<React/RCTAssert.h>)
+#import <React/RCTBridgeModule.h>
+#else
+#import "RCTBridgeModule.h"
+#endif
 
 @interface RCT_EXTERN_MODULE(InstagramShare, NSObject)
 
