@@ -2,17 +2,14 @@
 
 (Note: Currently testing and working out remaining bugs, don't use in production just yet )
 
-This library attempts to solve the problem of sharing images to Instagram in React Native applications. Since their public API does not expose a direct endpoint to share currently, a common workaround is to use a link that attempts to open the Instagram app on the user's machine.
+This library attempts to solve the problem of sharing images to Instagram in React Native applications. Since their public API does not expose a direct endpoint to share currently, a common workaround is to use a link that attempts to open the Instagram app on the user's device.
 
 ### Demo
 
 // demo gif coming soon!
 
 ### Installation
-
-`git clone [repo_url]`
-
-`yarn add file:[path-to-directory]`
+`yarn add react-native-instagram-share-ios`
 
 ### Usage
 ```javascript
